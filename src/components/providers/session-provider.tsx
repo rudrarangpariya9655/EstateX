@@ -106,8 +106,10 @@ export function SessionProvider({ children }: { children: ReactNode }) {
     }
   }, [notify, commitIds]);
 
+  // Load the session once the first render has committed; state updates when the response arrives.
   useEffect(() => {
-    void refresh();
+    const handle = window.setTimeout(() => void refresh(), 0);
+    return () => window.clearTimeout(handle);
   }, [refresh]);
 
   // Keep guest favorites in sync across tabs.
@@ -117,7 +119,7 @@ export function SessionProvider({ children }: { children: ReactNode }) {
     };
     window.addEventListener("storage", onStorage);
     return () => window.removeEventListener("storage", onStorage);
-  }, []);
+  }, [commitIds]);
 
   const toggle = useCallback<FavoritesContextValue["toggle"]>(
     async ({ id, name }) => {
