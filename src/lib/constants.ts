@@ -1,4 +1,4 @@
-import type { CitySlug, NearbyCategory, PropertyStatus, PropertyType, SortOption } from "./types";
+import type { CitySlug, NearbyCategory, PropertyStatus, PropertyType, SortOption, VisitStatus } from "./types";
 import { unsplash } from "./images";
 
 export const SITE = {
@@ -352,3 +352,11 @@ export const NEARBY_LABELS: Record<NearbyCategory, string> = {
 
 export const PAGE_SIZE = 9;
 export const MAX_COMPARE = 3;
+
+export const VISIT_STATUS_LABELS: Record<VisitStatus, string> = {
+  pending: "Awaiting confirmation",
+  confirmed: "Confirmed",
+  declined: "Not available",
+  completed: "Completed",
+  cancelled: "Cancelled",
+};

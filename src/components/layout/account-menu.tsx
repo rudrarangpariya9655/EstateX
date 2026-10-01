@@ -11,6 +11,7 @@ const LINKS = [
   { href: "/dashboard", label: "Overview" },
   { href: "/dashboard/saved", label: "Saved homes" },
   { href: "/dashboard/visits", label: "Visit requests" },
+  { href: "/dashboard/recent", label: "Recently viewed" },
   { href: "/dashboard/profile", label: "Profile" },
 ];
 
