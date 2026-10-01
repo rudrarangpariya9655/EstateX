@@ -1,0 +1,58 @@
+import {
+  Anchor,
+  ArrowUpDown,
+  BatteryCharging,
+  Bath,
+  BookOpen,
+  Car,
+  ConciergeBell,
+  Cpu,
+  Dumbbell,
+  Fence,
+  Film,
+  Flame,
+  Landmark,
+  Laptop,
+  PlugZap,
+  Sailboat,
+  ShieldCheck,
+  Sprout,
+  Sun,
+  Trees,
+  Users,
+  Waves,
+  Wine,
+  Check,
+  type LucideIcon,
+} from "lucide-react";
+
+const ICONS: Record<string, LucideIcon> = {
+  waves: Waves,
+  trees: Trees,
+  car: Car,
+  dumbbell: Dumbbell,
+  shield: ShieldCheck,
+  cpu: Cpu,
+  fence: Fence,
+  landmark: Landmark,
+  sun: Sun,
+  sprout: Sprout,
+  laptop: Laptop,
+  film: Film,
+  wine: Wine,
+  bath: Bath,
+  flame: Flame,
+  book: BookOpen,
+  bell: ConciergeBell,
+  lift: ArrowUpDown,
+  sailboat: Sailboat,
+  anchor: Anchor,
+  plug: PlugZap,
+  battery: BatteryCharging,
+  users: Users,
+};
+
+export function AmenityIcon({ icon, className }: { icon: string; className?: string }) {
+  const Icon = ICONS[icon] ?? Check;
+  return <Icon aria-hidden className={className} strokeWidth={1.25} />;
+}

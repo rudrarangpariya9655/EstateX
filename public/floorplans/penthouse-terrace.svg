@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1020 650" width="1020" height="650" role="img">
+  <rect width="1020" height="650" fill="#faf9f6"/>
+  <rect x="70" y="60" width="560" height="480" fill="none" stroke="#151515" stroke-width="1.2" stroke-dasharray="6 5"/>
+  <text x="350" y="298" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" letter-spacing="2" fill="#151515">ROOF TERRACE</text>
+  <text x="350" y="314" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6f6d68">14.0 × 12.0 m</text>
+  <rect x="118" y="368" width="464" height="124" fill="#e2e6dd" stroke="#151515" stroke-width="1"/>
+  <path d="M130 399 q12 -5 24 0 t24 0" fill="none" stroke="#6f6d68" stroke-width="0.8"/>
+  <path d="M130 430 q12 -5 24 0 t24 0" fill="none" stroke="#6f6d68" stroke-width="0.8"/>
+  <path d="M130 461 q12 -5 24 0 t24 0" fill="none" stroke="#6f6d68" stroke-width="0.8"/>
+  <rect x="110" y="360" width="480" height="140" fill="none" stroke="#151515" stroke-width="2.5"/>
+  <text x="350" y="434" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" letter-spacing="2" fill="#151515">LAP POOL</text>
+  <rect x="630" y="60" width="320" height="240" fill="none" stroke="#151515" stroke-width="2.5"/>
+  <line x1="630" y1="212" x2="630" y2="248" stroke="#faf9f6" stroke-width="5"/>
+  <path d="M630 212 L666 212 A36 36 0 0 1 630 248" fill="none" stroke="#151515" stroke-width="0.9"/>
+  <text x="790" y="178" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" letter-spacing="2" fill="#151515">LOUNGE PAVILION</text>
+  <text x="790" y="194" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6f6d68">8.0 × 6.0 m</text>
+  <rect x="630" y="300" width="160" height="240" fill="none" stroke="#151515" stroke-width="2.5"/>
+  <line x1="630" y1="324" x2="630" y2="360" stroke="#faf9f6" stroke-width="5"/>
+  <path d="M630 324 L666 324 A36 36 0 0 1 630 360" fill="none" stroke="#151515" stroke-width="0.9"/>
+  <text x="710" y="418" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" letter-spacing="2" fill="#151515">OUTDOOR KITCHEN</text>
+  <text x="710" y="434" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6f6d68">4.0 × 6.0 m</text>
+  <rect x="790" y="300" width="160" height="240" fill="none" stroke="#151515" stroke-width="2.5"/>
+  <line x1="796" y1="314" x2="944" y2="314" stroke="#151515" stroke-width="0.9"/>
+  <line x1="796" y1="328" x2="944" y2="328" stroke="#151515" stroke-width="0.9"/>
+  <line x1="796" y1="342" x2="944" y2="342" stroke="#151515" stroke-width="0.9"/>
+  <line x1="796" y1="356" x2="944" y2="356" stroke="#151515" stroke-width="0.9"/>
+  <line x1="796" y1="370" x2="944" y2="370" stroke="#151515" stroke-width="0.9"/>
+  <line x1="796" y1="384" x2="944" y2="384" stroke="#151515" stroke-width="0.9"/>
+  <line x1="796" y1="398" x2="944" y2="398" stroke="#151515" stroke-width="0.9"/>
+  <line x1="796" y1="412" x2="944" y2="412" stroke="#151515" stroke-width="0.9"/>
+  <line x1="796" y1="426" x2="944" y2="426" stroke="#151515" stroke-width="0.9"/>
+  <line x1="796" y1="440" x2="944" y2="440" stroke="#151515" stroke-width="0.9"/>
+  <line x1="796" y1="454" x2="944" y2="454" stroke="#151515" stroke-width="0.9"/>
+  <line x1="796" y1="468" x2="944" y2="468" stroke="#151515" stroke-width="0.9"/>
+  <line x1="796" y1="482" x2="944" y2="482" stroke="#151515" stroke-width="0.9"/>
+  <line x1="796" y1="496" x2="944" y2="496" stroke="#151515" stroke-width="0.9"/>
+  <line x1="796" y1="510" x2="944" y2="510" stroke="#151515" stroke-width="0.9"/>
+  <line x1="796" y1="524" x2="944" y2="524" stroke="#151515" stroke-width="0.9"/>
+  <text x="870" y="424" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" letter-spacing="2" fill="#151515">STAIR &amp; LIFT</text>
+  <rect x="70" y="60" width="880" height="480" fill="none" stroke="#151515" stroke-width="6"/>
+  <text x="70" y="582" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#151515">Terrace level</text>
+  <rect x="70" y="600" width="40" height="5" fill="#151515" stroke="#151515" stroke-width="0.8"/>
+  <rect x="110" y="600" width="40" height="5" fill="#faf9f6" stroke="#151515" stroke-width="0.8"/>
+  <rect x="150" y="600" width="40" height="5" fill="#151515" stroke="#151515" stroke-width="0.8"/>
+  <rect x="190" y="600" width="40" height="5" fill="#faf9f6" stroke="#151515" stroke-width="0.8"/>
+  <rect x="230" y="600" width="40" height="5" fill="#151515" stroke="#151515" stroke-width="0.8"/>
+  <text x="70" y="620" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#6f6d68">0</text>
+  <text x="260" y="620" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#6f6d68">5 m</text>
+  <g transform="translate(936 574)"><circle r="16" fill="none" stroke="#151515" stroke-width="0.8"/><path d="M0 -12 L6 8 L0 4 L-6 8 Z" fill="#151515"/><text y="30" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="9" letter-spacing="1.5" fill="#151515">N</text></g>
+  <text x="950" y="636" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="8.5" fill="#6f6d68">Indicative plan · dimensions approximate · EstateX demo</text>
+</svg>

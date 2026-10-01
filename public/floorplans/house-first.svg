@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 750" width="780" height="750" role="img">
+  <rect width="780" height="750" fill="#faf9f6"/>
+  <rect x="70" y="60" width="280" height="100" fill="none" stroke="#151515" stroke-width="1.2" stroke-dasharray="6 5"/>
+  <text x="210" y="108" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="9.5" letter-spacing="1.2" fill="#151515">TERRACE</text>
+  <text x="210" y="124" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="8.5" fill="#6f6d68">7.0 × 2.5 m</text>
+  <rect x="70" y="160" width="280" height="240" fill="none" stroke="#151515" stroke-width="2.5"/>
+  <line x1="254" y1="400" x2="290" y2="400" stroke="#faf9f6" stroke-width="5"/>
+  <path d="M254 400 L254 364 A36 36 0 0 1 290 400" fill="none" stroke="#151515" stroke-width="0.9"/>
+  <text x="210" y="278" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" letter-spacing="2" fill="#151515">PRINCIPAL BEDROOM</text>
+  <text x="210" y="294" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6f6d68">7.0 × 6.0 m</text>
+  <rect x="350" y="160" width="200" height="240" fill="none" stroke="#151515" stroke-width="1.2" stroke-dasharray="6 5"/>
+  <text x="450" y="284" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" letter-spacing="2" fill="#151515">OPEN TO BELOW</text>
+  <rect x="550" y="160" width="160" height="240" fill="none" stroke="#151515" stroke-width="2.5"/>
+  <line x1="574" y1="400" x2="610" y2="400" stroke="#faf9f6" stroke-width="5"/>
+  <path d="M574 400 L574 364 A36 36 0 0 1 610 400" fill="none" stroke="#151515" stroke-width="0.9"/>
+  <text x="630" y="278" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" letter-spacing="2" fill="#151515">BEDROOM 2</text>
+  <text x="630" y="294" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6f6d68">4.0 × 6.0 m</text>
+  <rect x="70" y="400" width="160" height="120" fill="none" stroke="#151515" stroke-width="2.5"/>
+  <line x1="166" y1="400" x2="202" y2="400" stroke="#faf9f6" stroke-width="5"/>
+  <path d="M166 400 L166 436 A36 36 0 0 0 202 400" fill="none" stroke="#151515" stroke-width="0.9"/>
+  <text x="150" y="458" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" letter-spacing="2" fill="#151515">BATH</text>
+  <text x="150" y="474" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6f6d68">4.0 × 3.0 m</text>
+  <rect x="70" y="520" width="160" height="120" fill="none" stroke="#151515" stroke-width="2.5"/>
+  <line x1="230" y1="560" x2="230" y2="596" stroke="#faf9f6" stroke-width="5"/>
+  <path d="M230 560 L194 560 A36 36 0 0 0 230 596" fill="none" stroke="#151515" stroke-width="0.9"/>
+  <text x="150" y="578" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" letter-spacing="2" fill="#151515">DRESSING</text>
+  <text x="150" y="594" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6f6d68">4.0 × 3.0 m</text>
+  <rect x="230" y="400" width="160" height="120" fill="none" stroke="#151515" stroke-width="2.5"/>
+  <text x="310" y="458" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" letter-spacing="2" fill="#151515">LANDING</text>
+  <text x="310" y="474" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6f6d68">4.0 × 3.0 m</text>
+  <rect x="390" y="400" width="120" height="120" fill="none" stroke="#151515" stroke-width="2.5"/>
+  <line x1="404" y1="406" x2="404" y2="514" stroke="#151515" stroke-width="0.9"/>
+  <line x1="418" y1="406" x2="418" y2="514" stroke="#151515" stroke-width="0.9"/>
+  <line x1="432" y1="406" x2="432" y2="514" stroke="#151515" stroke-width="0.9"/>
+  <line x1="446" y1="406" x2="446" y2="514" stroke="#151515" stroke-width="0.9"/>
+  <line x1="460" y1="406" x2="460" y2="514" stroke="#151515" stroke-width="0.9"/>
+  <line x1="474" y1="406" x2="474" y2="514" stroke="#151515" stroke-width="0.9"/>
+  <line x1="488" y1="406" x2="488" y2="514" stroke="#151515" stroke-width="0.9"/>
+  <text x="450" y="464" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="9.5" letter-spacing="1.2" fill="#151515">STAIR</text>
+  <rect x="230" y="520" width="280" height="120" fill="none" stroke="#151515" stroke-width="2.5"/>
+  <line x1="254" y1="520" x2="290" y2="520" stroke="#faf9f6" stroke-width="5"/>
+  <path d="M254 520 L254 556 A36 36 0 0 0 290 520" fill="none" stroke="#151515" stroke-width="0.9"/>
+  <text x="370" y="578" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" letter-spacing="2" fill="#151515">FAMILY ROOM</text>
+  <text x="370" y="594" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6f6d68">7.0 × 3.0 m</text>
+  <rect x="510" y="400" width="200" height="80" fill="none" stroke="#151515" stroke-width="2.5"/>
+  <line x1="510" y1="420" x2="510" y2="456" stroke="#faf9f6" stroke-width="5"/>
+  <path d="M510 420 L546 420 A36 36 0 0 1 510 456" fill="none" stroke="#151515" stroke-width="0.9"/>
+  <text x="610" y="438" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="9.5" letter-spacing="1.2" fill="#151515">BATH</text>
+  <text x="610" y="454" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="8.5" fill="#6f6d68">5.0 × 2.0 m</text>
+  <rect x="510" y="480" width="200" height="160" fill="none" stroke="#151515" stroke-width="2.5"/>
+  <line x1="510" y1="496" x2="510" y2="532" stroke="#faf9f6" stroke-width="5"/>
+  <path d="M510 496 L546 496 A36 36 0 0 1 510 532" fill="none" stroke="#151515" stroke-width="0.9"/>
+  <text x="610" y="558" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" letter-spacing="2" fill="#151515">BEDROOM 3</text>
+  <text x="610" y="574" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6f6d68">5.0 × 4.0 m</text>
+  <rect x="70" y="160" width="640" height="480" fill="none" stroke="#151515" stroke-width="6"/>
+  <text x="70" y="682" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#151515">First floor</text>
+  <rect x="70" y="700" width="40" height="5" fill="#151515" stroke="#151515" stroke-width="0.8"/>
+  <rect x="110" y="700" width="40" height="5" fill="#faf9f6" stroke="#151515" stroke-width="0.8"/>
+  <rect x="150" y="700" width="40" height="5" fill="#151515" stroke="#151515" stroke-width="0.8"/>
+  <rect x="190" y="700" width="40" height="5" fill="#faf9f6" stroke="#151515" stroke-width="0.8"/>
+  <rect x="230" y="700" width="40" height="5" fill="#151515" stroke="#151515" stroke-width="0.8"/>
+  <text x="70" y="720" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#6f6d68">0</text>
+  <text x="260" y="720" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#6f6d68">5 m</text>
+  <g transform="translate(696 674)"><circle r="16" fill="none" stroke="#151515" stroke-width="0.8"/><path d="M0 -12 L6 8 L0 4 L-6 8 Z" fill="#151515"/><text y="30" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="9" letter-spacing="1.5" fill="#151515">N</text></g>
+  <text x="710" y="736" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="8.5" fill="#6f6d68">Indicative plan · dimensions approximate · EstateX demo</text>
+</svg>

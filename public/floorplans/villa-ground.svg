@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 810" width="940" height="810" role="img">
+  <rect width="940" height="810" fill="#faf9f6"/>
+  <rect x="70" y="580" width="360" height="120" fill="none" stroke="#151515" stroke-width="1.2" stroke-dasharray="6 5"/>
+  <text x="250" y="638" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" letter-spacing="2" fill="#151515">TERRACE</text>
+  <text x="250" y="654" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6f6d68">9.0 × 3.0 m</text>
+  <rect x="458" y="608" width="404" height="84" fill="#e2e6dd" stroke="#151515" stroke-width="1"/>
+  <path d="M470 629 q12 -5 24 0 t24 0" fill="none" stroke="#6f6d68" stroke-width="0.8"/>
+  <path d="M470 650 q12 -5 24 0 t24 0" fill="none" stroke="#6f6d68" stroke-width="0.8"/>
+  <path d="M470 671 q12 -5 24 0 t24 0" fill="none" stroke="#6f6d68" stroke-width="0.8"/>
+  <rect x="450" y="600" width="420" height="100" fill="none" stroke="#151515" stroke-width="1.2" stroke-dasharray="6 5"/>
+  <text x="660" y="654" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="9.5" letter-spacing="1.2" fill="#151515">POOL</text>
+  <rect x="70" y="60" width="320" height="280" fill="none" stroke="#151515" stroke-width="2.5"/>
+  <line x1="390" y1="284" x2="390" y2="320" stroke="#faf9f6" stroke-width="5"/>
+  <path d="M390 284 L354 284 A36 36 0 0 0 390 320" fill="none" stroke="#151515" stroke-width="0.9"/>
+  <text x="230" y="198" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" letter-spacing="2" fill="#151515">LIVING</text>
+  <text x="230" y="214" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6f6d68">8.0 × 7.0 m</text>
+  <rect x="390" y="60" width="240" height="200" fill="none" stroke="#151515" stroke-width="2.5"/>
+  <line x1="490" y1="260" x2="526" y2="260" stroke="#faf9f6" stroke-width="5"/>
+  <path d="M490 260 L490 224 A36 36 0 0 1 526 260" fill="none" stroke="#151515" stroke-width="0.9"/>
+  <text x="510" y="158" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" letter-spacing="2" fill="#151515">DINING</text>
+  <text x="510" y="174" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6f6d68">6.0 × 5.0 m</text>
+  <rect x="630" y="60" width="240" height="200" fill="none" stroke="#151515" stroke-width="2.5"/>
+  <line x1="630" y1="196" x2="630" y2="232" stroke="#faf9f6" stroke-width="5"/>
+  <path d="M630 196 L666 196 A36 36 0 0 1 630 232" fill="none" stroke="#151515" stroke-width="0.9"/>
+  <text x="750" y="158" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" letter-spacing="2" fill="#151515">KITCHEN</text>
+  <text x="750" y="174" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6f6d68">6.0 × 5.0 m</text>
+  <rect x="390" y="260" width="160" height="160" fill="none" stroke="#151515" stroke-width="2.5"/>
+  <line x1="450" y1="420" x2="486" y2="420" stroke="#faf9f6" stroke-width="5"/>
+  <path d="M450 420 L450 384 A36 36 0 0 1 486 420" fill="none" stroke="#151515" stroke-width="0.9"/>
+  <text x="470" y="338" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" letter-spacing="2" fill="#151515">ENTRANCE HALL</text>
+  <text x="470" y="354" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6f6d68">4.0 × 4.0 m</text>
+  <rect x="550" y="260" width="120" height="160" fill="none" stroke="#151515" stroke-width="2.5"/>
+  <line x1="556" y1="274" x2="664" y2="274" stroke="#151515" stroke-width="0.9"/>
+  <line x1="556" y1="288" x2="664" y2="288" stroke="#151515" stroke-width="0.9"/>
+  <line x1="556" y1="302" x2="664" y2="302" stroke="#151515" stroke-width="0.9"/>
+  <line x1="556" y1="316" x2="664" y2="316" stroke="#151515" stroke-width="0.9"/>
+  <line x1="556" y1="330" x2="664" y2="330" stroke="#151515" stroke-width="0.9"/>
+  <line x1="556" y1="344" x2="664" y2="344" stroke="#151515" stroke-width="0.9"/>
+  <line x1="556" y1="358" x2="664" y2="358" stroke="#151515" stroke-width="0.9"/>
+  <line x1="556" y1="372" x2="664" y2="372" stroke="#151515" stroke-width="0.9"/>
+  <line x1="556" y1="386" x2="664" y2="386" stroke="#151515" stroke-width="0.9"/>
+  <line x1="556" y1="400" x2="664" y2="400" stroke="#151515" stroke-width="0.9"/>
+  <text x="610" y="344" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="9.5" letter-spacing="1.2" fill="#151515">STAIR</text>
+  <rect x="670" y="260" width="200" height="160" fill="none" stroke="#151515" stroke-width="2.5"/>
+  <line x1="690" y1="260" x2="726" y2="260" stroke="#faf9f6" stroke-width="5"/>
+  <path d="M690 260 L690 296 A36 36 0 0 0 726 260" fill="none" stroke="#151515" stroke-width="0.9"/>
+  <text x="770" y="338" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" letter-spacing="2" fill="#151515">UTILITY</text>
+  <text x="770" y="354" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6f6d68">5.0 × 4.0 m</text>
+  <rect x="70" y="340" width="320" height="240" fill="none" stroke="#151515" stroke-width="2.5"/>
+  <line x1="390" y1="364" x2="390" y2="400" stroke="#faf9f6" stroke-width="5"/>
+  <path d="M390 364 L354 364 A36 36 0 0 0 390 400" fill="none" stroke="#151515" stroke-width="0.9"/>
+  <text x="230" y="458" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" letter-spacing="2" fill="#151515">FAMILY ROOM</text>
+  <text x="230" y="474" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6f6d68">8.0 × 6.0 m</text>
+  <rect x="390" y="420" width="280" height="160" fill="none" stroke="#151515" stroke-width="2.5"/>
+  <line x1="574" y1="420" x2="610" y2="420" stroke="#faf9f6" stroke-width="5"/>
+  <path d="M574 420 L574 456 A36 36 0 0 0 610 420" fill="none" stroke="#151515" stroke-width="0.9"/>
+  <text x="530" y="498" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" letter-spacing="2" fill="#151515">GUEST SUITE</text>
+  <text x="530" y="514" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6f6d68">7.0 × 4.0 m</text>
+  <rect x="670" y="420" width="200" height="160" fill="none" stroke="#151515" stroke-width="2.5"/>
+  <line x1="814" y1="420" x2="850" y2="420" stroke="#faf9f6" stroke-width="5"/>
+  <path d="M814 420 L814 456 A36 36 0 0 0 850 420" fill="none" stroke="#151515" stroke-width="0.9"/>
+  <text x="770" y="498" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" letter-spacing="2" fill="#151515">STAFF</text>
+  <text x="770" y="514" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6f6d68">5.0 × 4.0 m</text>
+  <rect x="70" y="60" width="800" height="520" fill="none" stroke="#151515" stroke-width="6"/>
+  <text x="70" y="742" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#151515">Ground floor</text>
+  <rect x="70" y="760" width="40" height="5" fill="#151515" stroke="#151515" stroke-width="0.8"/>
+  <rect x="110" y="760" width="40" height="5" fill="#faf9f6" stroke="#151515" stroke-width="0.8"/>
+  <rect x="150" y="760" width="40" height="5" fill="#151515" stroke="#151515" stroke-width="0.8"/>
+  <rect x="190" y="760" width="40" height="5" fill="#faf9f6" stroke="#151515" stroke-width="0.8"/>
+  <rect x="230" y="760" width="40" height="5" fill="#151515" stroke="#151515" stroke-width="0.8"/>
+  <text x="70" y="780" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#6f6d68">0</text>
+  <text x="260" y="780" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#6f6d68">5 m</text>
+  <g transform="translate(856 734)"><circle r="16" fill="none" stroke="#151515" stroke-width="0.8"/><path d="M0 -12 L6 8 L0 4 L-6 8 Z" fill="#151515"/><text y="30" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="9" letter-spacing="1.5" fill="#151515">N</text></g>
+  <text x="870" y="796" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="8.5" fill="#6f6d68">Indicative plan · dimensions approximate · EstateX demo</text>
+</svg>
