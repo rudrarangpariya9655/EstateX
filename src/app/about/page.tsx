@@ -209,11 +209,11 @@ export default function AboutPage() {
       </section>
 
       <section aria-labelledby="about-cta" className="border-t border-line section-y">
-        <div className="container-site grid gap-10 md:grid-cols-12 md:items-end">
-          <div className="md:col-span-7">
+        <div className="container-site grid gap-10 lg:grid-cols-12 lg:items-end">
+          <div className="lg:col-span-7">
             <RevealLines id="about-cta" lines={["Start with a home", "that feels right."]} className="text-h2" />
           </div>
-          <Reveal className="flex flex-col items-start gap-8 md:col-span-4 md:col-start-9" delay={150}>
+          <Reveal className="flex flex-col items-start gap-8 lg:col-span-4 lg:col-start-9" delay={150}>
             <ButtonLink href="/properties" arrow>
               Explore properties
             </ButtonLink>

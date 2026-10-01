@@ -31,8 +31,8 @@ export function MapView({ properties }: { properties: PropertySummary[] }) {
   );
 
   return (
-    <div className="grid gap-8 lg:grid-cols-2 xl:grid-cols-[minmax(0,5fr)_minmax(0,7fr)] lg:gap-10">
-      <div className="order-2 lg:order-1">
+    <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 xl:grid-cols-[minmax(0,5fr)_minmax(0,7fr)] lg:gap-10">
+      <div className="order-2 min-w-0 lg:order-1">
         <ul className="divide-y divide-line border-y border-line">
           {properties.map((p) => {
             const selected = p.id === selectedId;
@@ -53,7 +53,7 @@ export function MapView({ properties }: { properties: PropertySummary[] }) {
                       <StatusLabel status={p.status} className="hidden shrink-0 sm:inline-flex" />
                     </div>
                     <h2 className="mt-1.5 font-serif text-[1.4rem] leading-tight">
-                      <Link href={`/properties/${p.slug}`} className="hover:underline hover:decoration-1 hover:underline-offset-4">
+                      <Link href={`/properties/${p.slug}`} className="hit-area hover:underline hover:decoration-1 hover:underline-offset-4">
                         {p.name}
                       </Link>
                     </h2>
@@ -61,7 +61,7 @@ export function MapView({ properties }: { properties: PropertySummary[] }) {
                       {p.locality}, {cityName(p.city)}
                     </p>
                     <div className="mt-auto flex flex-wrap items-end justify-between gap-x-4 gap-y-2 pt-3">
-                      <div>
+                      <div className="min-w-0">
                         <p className="text-[0.9375rem] font-medium tabular-nums">{formatPrice(p.price)}</p>
                         <p className="text-[0.75rem] text-muted">{formatSpecs(p)}</p>
                       </div>
@@ -90,7 +90,7 @@ export function MapView({ properties }: { properties: PropertySummary[] }) {
           Select a marker for a preview. Locations are approximate.
         </p>
       </div>
-      <div className="order-1 lg:order-2">
+      <div className="order-1 min-w-0 lg:order-2">
         <div className="h-[58vh] min-h-[22rem] lg:sticky lg:top-[9.5rem] lg:h-[calc(100dvh-11rem)]">
           <PropertyMap
             points={points}

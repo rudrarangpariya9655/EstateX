@@ -51,7 +51,7 @@ export default async function CollectionPage(props: PageProps<"/collections/[slu
           <nav aria-label="Breadcrumb" className="hero-fade">
             <ol className="flex flex-wrap items-center gap-1.5 text-[0.8125rem] text-muted">
               <li>
-                <Link href="/collections" className="hover:text-ink">
+                <Link href="/collections" className="hit-area hover:text-ink">
                   Collections
                 </Link>
               </li>

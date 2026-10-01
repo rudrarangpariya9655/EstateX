@@ -48,7 +48,7 @@ export function LocationScroller({ tiles, headingId }: { tiles: LocationTile[]; 
 
   return (
     <div>
-      <div className="container-site -mt-2 mb-10 flex justify-end gap-2 md:-mt-16 md:mb-14">
+      <div className="container-site mb-10 mt-10 flex justify-end gap-2 md:-mt-16 md:mb-14">
         {(
           [
             [-1, "Previous cities", ArrowLeft, edges.start],
@@ -79,7 +79,7 @@ export function LocationScroller({ tiles, headingId }: { tiles: LocationTile[]; 
             data-reveal=""
             style={{ "--reveal-delay": Math.min(i, 3) * 90 } as CSSProperties}
           >
-            <Link href={`/neighborhoods/${tile.slug}`} className="group block">
+            <Link href={`/neighborhoods/${tile.slug}`} className="group relative block">
               <div className="relative aspect-[3/4] overflow-hidden bg-sand">
                 <Photo
                   src={tile.image.url}

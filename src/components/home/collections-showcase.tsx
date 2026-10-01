@@ -94,6 +94,9 @@ export function CollectionsShowcase({ items }: { items: ShowcaseItem[] }) {
                 alt={active === i ? item.image.alt : ""}
                 blurDataUrl={item.image.blurDataUrl}
                 fill
+                // Hidden layers cross-fade in on hover; load them up front (at low priority) so the swap never flashes.
+                loading="eager"
+                fetchPriority={i === 0 ? "auto" : "low"}
                 sizes="45vw"
                 className="object-cover"
               />

@@ -44,7 +44,7 @@ export function VisitList({ visits, cancellable, muted }: { visits: VisitRequest
             </div>
             <div className="min-w-0">
               {p ? (
-                <Link href={`/properties/${p.slug}`} className="font-serif text-[1.375rem] leading-tight hover:underline hover:decoration-1 hover:underline-offset-4">
+                <Link href={`/properties/${p.slug}`} className="hit-area font-serif text-[1.375rem] leading-tight hover:underline hover:decoration-1 hover:underline-offset-4">
                   {p.name}
                 </Link>
               ) : (

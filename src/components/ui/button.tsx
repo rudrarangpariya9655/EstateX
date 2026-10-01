@@ -80,7 +80,7 @@ export function ArrowLink({
   return (
     <Link
       className={cn(
-        "arrow-nudge group/link inline-flex items-center gap-2.5 border-b pb-1.5 label-caps transition-colors duration-300",
+        "arrow-nudge group/link hit-area inline-flex shrink-0 items-center gap-2.5 whitespace-nowrap border-b pb-1.5 label-caps transition-colors duration-300",
         tone === "ink" ? "border-ink/30 text-ink hover:border-ink" : "border-white/50 text-white hover:border-white",
         className,
       )}

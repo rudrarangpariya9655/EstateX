@@ -61,7 +61,7 @@ export default async function CityGuidePage(props: PageProps<"/neighborhoods/[ci
         <nav aria-label="Breadcrumb" className="hero-fade">
           <ol className="flex flex-wrap items-center gap-1.5 text-[0.8125rem] text-muted">
             <li>
-              <Link href="/neighborhoods" className="hover:text-ink">
+              <Link href="/neighborhoods" className="hit-area hover:text-ink">
                 Neighborhoods
               </Link>
             </li>

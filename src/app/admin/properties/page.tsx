@@ -105,7 +105,7 @@ export default async function AdminPropertiesPage(props: PageProps<"/admin/prope
                 <Photo src={p.cover?.url} alt="" fill sizes="72px" className="object-cover" />
               </div>
               <div className="min-w-0">
-                <Link href={`/admin/properties/${p.id}/edit`} className="block truncate font-serif text-[1.375rem] leading-tight hover:underline hover:decoration-1 hover:underline-offset-4">
+                <Link href={`/admin/properties/${p.id}/edit`} className="-my-2 block truncate py-2 font-serif text-[1.375rem] leading-tight hover:underline hover:decoration-1 hover:underline-offset-4">
                   {p.name}
                 </Link>
                 <p className="mt-1 truncate text-[0.8125rem] text-muted">

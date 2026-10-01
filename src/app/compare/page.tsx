@@ -139,8 +139,8 @@ export default async function ComparePage(props: PageProps<"/compare">) {
             items={properties.map((p) => ({ id: p.id, slug: p.slug, name: p.name, coverUrl: p.cover?.url ?? null }))}
           />
           <div className="md:container-site">
-            <div className="overflow-x-auto overscroll-x-contain pb-4" role="region" aria-label="Comparison table" tabIndex={0}>
-              <table className="w-full min-w-[calc(9rem+var(--cols)*15.5rem)] border-collapse text-left" style={{ ["--cols" as string]: cols }}>
+            <div className="relative overflow-x-auto overscroll-x-contain pb-4" role="region" aria-label="Comparison table" tabIndex={0}>
+              <table className="w-full min-w-[calc(9rem+var(--cols)*15.5rem)] table-fixed border-collapse text-left" style={{ ["--cols" as string]: cols }}>
                 <caption className="sr-only">Comparison of {properties.map((p) => p.name).join(", ")}</caption>
                 <colgroup>
                   <col className="w-36 md:w-52" />
@@ -160,7 +160,7 @@ export default async function ComparePage(props: PageProps<"/compare">) {
                           </div>
                         </div>
                         <p className="eyebrow mt-5 text-muted">{PROPERTY_TYPE_LABELS[p.type]}</p>
-                        <Link href={`/properties/${p.slug}`} className="mt-2 block font-serif text-[1.75rem] leading-[1.05] hover:underline hover:decoration-1 hover:underline-offset-4">
+                        <Link href={`/properties/${p.slug}`} className="hit-area mt-2 block font-serif text-[1.75rem] leading-[1.05] hover:underline hover:decoration-1 hover:underline-offset-4">
                           {p.name}
                         </Link>
                       </th>

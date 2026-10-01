@@ -121,7 +121,7 @@ export function SignInForm({ next, notice }: { next: string; notice?: { tone: "s
         />
       </Field>
       <div className="-mt-2 flex justify-end">
-        <Link href="/forgot-password" className="text-[0.8125rem] text-muted underline-offset-4 hover:text-ink hover:underline">
+        <Link href="/forgot-password" className="hit-area text-[0.8125rem] text-muted underline-offset-4 hover:text-ink hover:underline">
           Forgot your password?
         </Link>
       </div>

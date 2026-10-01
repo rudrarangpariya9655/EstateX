@@ -66,7 +66,7 @@ export default async function AdminVisitsPage(props: PageProps<"/admin/visits">)
               </div>
               <div className="min-w-0 text-[0.875rem]">
                 {v.property ? (
-                  <Link href={`/properties/${v.property.slug}`} className="font-serif text-[1.25rem] leading-tight hover:underline hover:decoration-1 hover:underline-offset-4">
+                  <Link href={`/properties/${v.property.slug}`} className="hit-area font-serif text-[1.25rem] leading-tight hover:underline hover:decoration-1 hover:underline-offset-4">
                     {v.property.name}
                   </Link>
                 ) : (

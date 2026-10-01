@@ -49,8 +49,8 @@ export function Neighborhood({ property, cityLabel }: { property: Property; city
   const places = property.nearby.filter((n) => n.category === active).sort((a, b) => a.distanceKm - b.distanceKm);
 
   return (
-    <div className="grid gap-12 lg:grid-cols-12 lg:gap-10">
-      <div className="lg:col-span-7">
+    <div className="grid grid-cols-1 gap-12 lg:grid-cols-12 lg:gap-10">
+      <div className="min-w-0 lg:col-span-7">
         <PropertyMap
           points={points}
           variant="single"
@@ -62,7 +62,7 @@ export function Neighborhood({ property, cityLabel }: { property: Property; city
         </p>
       </div>
 
-      <div className="lg:col-span-5">
+      <div className="min-w-0 lg:col-span-5">
         {categories.length && active ? (
           <>
             <div role="tablist" aria-label="Nearby places" className="no-scrollbar -mx-1 flex gap-1 overflow-x-auto border-b border-line px-1">
