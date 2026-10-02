@@ -6,7 +6,13 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "typecheck": "next typegen && tsc --noEmit",
+    "test": "vitest run",
+    "check": "npm run lint && npm run typecheck && npm run test",
+    "db:seed-sql": "tsx scripts/generate-seed-sql.ts",
+    "images:blur": "tsx scripts/generate-blur-placeholders.ts",
+    "floorplans": "tsx scripts/generate-floorplans.ts"
   },
   "dependencies": {
     "@supabase/ssr": "^0.12.7",

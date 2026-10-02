@@ -1,5 +1,5 @@
 import "server-only";
-import { redirect } from "next/navigation";
+import { redirect, unstable_rethrow } from "next/navigation";
 import { cache } from "react";
 import { isSupabaseEnabled } from "../env";
 import type { SessionUser } from "../types";
@@ -16,6 +16,8 @@ export const getCurrentUser = cache(async (): Promise<SessionUser | null> => {
   try {
     return await getAuth().getUser();
   } catch (error) {
+    // Let Next.js control-flow errors (dynamic rendering, redirects) propagate.
+    unstable_rethrow(error);
     console.error("[auth] could not resolve session", error);
     return null;
   }

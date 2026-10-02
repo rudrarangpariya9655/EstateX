@@ -68,7 +68,7 @@ export default async function PropertyPage(props: PageProps<"/properties/[slug]"
         <nav aria-label="Breadcrumb" className="hero-fade">
           <ol className="flex flex-wrap items-center gap-1.5 text-[0.8125rem] text-muted">
             <li>
-              <Link href="/properties" className="hover:text-ink">
+              <Link href="/properties" className="hit-area hover:text-ink">
                 Properties
               </Link>
             </li>
@@ -76,7 +76,7 @@ export default async function PropertyPage(props: PageProps<"/properties/[slug]"
               <ChevronRight className="size-3.5" strokeWidth={1.5} />
             </li>
             <li>
-              <Link href={`/properties?city=${city.slug}`} className="hover:text-ink">
+              <Link href={`/properties?city=${city.slug}`} className="hit-area hover:text-ink">
                 {city.name}
               </Link>
             </li>

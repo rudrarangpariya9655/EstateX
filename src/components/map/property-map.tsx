@@ -107,6 +107,7 @@ export function PropertyMap({
   useEffect(() => {
     let cancelled = false;
     let resizeObserver: ResizeObserver | null = null;
+    const markers = markersRef.current;
 
     (async () => {
       try {
@@ -152,7 +153,7 @@ export function PropertyMap({
       resizeObserver?.disconnect();
       mapRef.current?.remove();
       mapRef.current = null;
-      markersRef.current.clear();
+      markers.clear();
     };
   }, [variant]);
 

@@ -124,6 +124,11 @@ export const inquirySchema = z.object({
   propertyType: z.enum(PROPERTY_TYPES).optional(),
   expectedPrice: z.string().trim().max(40).optional(),
   website: honeypot,
+}).superRefine((v, ctx) => {
+  // Listing enquiries need to say where and what the property is.
+  if (v.topic !== "listing") return;
+  if (!v.city) ctx.addIssue({ code: "custom", path: ["city"], message: "Choose a city." });
+  if (!v.propertyType) ctx.addIssue({ code: "custom", path: ["propertyType"], message: "Choose a property type." });
 });
 
 // ── Admin: properties ───────────────────────────────────────────────────────

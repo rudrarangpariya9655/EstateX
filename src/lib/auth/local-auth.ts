@@ -13,6 +13,7 @@ import {
   verifyPassword,
   verifySession,
 } from "./crypto";
+import { ensureDemoAccount } from "./demo-accounts";
 import type { AuthService } from "./types";
 
 export const SESSION_COOKIE = "estatex_session";
@@ -62,6 +63,7 @@ export const localAuth: AuthService = {
   },
 
   async signIn(email, password) {
+    await ensureDemoAccount(email);
     const db = await readDb();
     const user = db.users.find((u) => u.email === email);
     dummyHash ??= hashPassword(randomToken());

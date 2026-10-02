@@ -59,7 +59,7 @@ export function CompareTray() {
           <p className="text-[0.875rem] font-medium">
             {items.length} of {MAX_COMPARE} selected
           </p>
-          <button type="button" onClick={clear} className="text-[0.8125rem] text-muted underline-offset-4 hover:text-ink hover:underline">
+          <button type="button" onClick={clear} className="hit-area text-[0.8125rem] text-muted underline-offset-4 hover:text-ink hover:underline">
             Clear
           </button>
         </div>

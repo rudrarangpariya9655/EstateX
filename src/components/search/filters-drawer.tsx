@@ -116,10 +116,12 @@ export function FiltersDrawer({ open, onClose }: { open: boolean; onClose: () =>
   const [showAllAmenities, setShowAllAmenities] = useState(false);
   const [count, setCount] = useState<number | null>(null);
 
-  // Start from the live search each time the drawer opens.
-  useEffect(() => {
+  // Start from the live search each time the drawer opens (state adjusted during render, not in an effect).
+  const [wasOpen, setWasOpen] = useState(open);
+  if (open !== wasOpen) {
+    setWasOpen(open);
     if (open) setDraft(draftFrom(state));
-  }, [open, state]);
+  }
 
   // Live result count for the draft.
   useEffect(() => {

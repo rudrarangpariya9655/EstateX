@@ -74,10 +74,10 @@ export function SiteFooter() {
         <div className="mt-12 flex flex-col gap-6 border-t border-ivory/15 py-8 text-[0.8125rem] text-ivory/60 md:flex-row md:items-center md:justify-between">
           <div className="flex flex-wrap items-center gap-x-6 gap-y-2">
             <span>© 2026 EstateX</span>
-            <Link href="/privacy" className="hover:text-ivory">
+            <Link href="/privacy" className="hit-area hover:text-ivory">
               Privacy
             </Link>
-            <Link href="/terms" className="hover:text-ivory">
+            <Link href="/terms" className="hit-area hover:text-ivory">
               Terms
             </Link>
           </div>

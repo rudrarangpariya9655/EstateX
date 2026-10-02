@@ -52,7 +52,7 @@ export function KeywordSearch() {
         type="search"
         value={value}
         onChange={(e) => setValue(e.target.value)}
-        placeholder="Search by name, neighborhood or city"
+        placeholder="Name, neighborhood or city"
         autoComplete="off"
         enterKeyHint="search"
         className="h-14 w-full border-b border-ink/25 bg-transparent pl-9 pr-10 text-[1.0625rem] outline-none transition-colors placeholder:text-muted/70 focus:border-ink [&::-webkit-search-cancel-button]:hidden"
@@ -153,10 +153,10 @@ export function SearchToolbar() {
           type="button"
           onClick={() => setDrawerOpen(true)}
           aria-haspopup="dialog"
-          className="inline-flex h-11 items-center gap-2.5 border border-line bg-surface px-4 text-[0.875rem] transition-colors hover:border-ink/40"
+          className="inline-flex h-11 min-w-11 items-center justify-center gap-2.5 border border-line bg-surface px-3 text-[0.875rem] transition-colors hover:border-ink/40 min-[400px]:px-4"
         >
           <SlidersHorizontal aria-hidden className="size-4" strokeWidth={1.4} />
-          <span>Filters</span>
+          <span className="max-[399px]:sr-only">Filters</span>
           {advancedCount ? (
             <span className="inline-flex min-w-5 items-center justify-center rounded-full bg-ink px-1.5 text-[0.6875rem] leading-5 text-ivory">
               {advancedCount}
